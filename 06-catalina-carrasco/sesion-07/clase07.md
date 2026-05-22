@@ -13,8 +13,8 @@ repetir instrucciones automáticamente.
 
 Las instrucciones se repiten:
 
-✔ mientras se cumpla una condición
-✔ o hasta alcanzar un estado específico
+ mientras se cumpla una condición
+  o hasta alcanzar un estado específico
 
 
 ----------------------------------------------------
@@ -45,7 +45,7 @@ condición sea verdadera.
 ----------------------------------------------------
 ESTRUCTURA
 ----------------------------------------------------
-*/
+
 
 while (condicionBooleana) {
 
@@ -53,7 +53,7 @@ while (condicionBooleana) {
 
 }
 
-/*
+
 ----------------------------------------------------
 FUNCIONAMIENTO
 ----------------------------------------------------
@@ -67,7 +67,7 @@ FUNCIONAMIENTO
 ====================================================
 EJEMPLO BÁSICO
 ====================================================
-*/
+
 
 let x = 0;
 
@@ -84,10 +84,10 @@ while (x <= 10) {
 EXPLICACIÓN
 ----------------------------------------------------
 
-✔ x comienza en 0
-✔ mientras x <= 10
-✔ x aumenta de 1 en 1
-✔ el loop termina cuando x > 10
+x comienza en 0
+ mientras x <= 10
+ x aumenta de 1 en 1
+ el loop termina cuando x > 10
 
 
 ====================================================
@@ -115,9 +115,9 @@ function setup() {
 
 }
 
-/*
+
 Este loop dibuja una fila de círculos.
-*/
+
 
 
 /*
@@ -146,17 +146,17 @@ Esto genera un LOOP INFINITO.
 */
 
 
-/*
+
 ====================================================
 USOS DEL WHILE
 ====================================================
 
 Se utiliza cuando:
 
-✔ NO sabemos exactamente cuántas veces
+ NO sabemos exactamente cuántas veces
   se repetirá el proceso
 
-✔ depende de una condición dinámica
+ depende de una condición dinámica
 
 
 ====================================================
@@ -206,16 +206,16 @@ for (let i = 0; i < 10; i = i + 1) {
 EXPLICACIÓN
 ----------------------------------------------------
 
-✔ i comienza en 0
-✔ mientras i < 10
-✔ i aumenta en 1
-✔ se imprime el número
+ i comienza en 0
+ mientras i < 10
+ i aumenta en 1
+ se imprime el número
 
 
 ====================================================
 EJEMPLO EN p5.js
 ====================================================
-*/
+
 
 function setup() {
 
@@ -261,9 +261,9 @@ function setup() {
 }
 
 /*
-Cada círculo tiene:
-✔ tamaño aleatorio
-✔ color aleatorio
+Cada círculo tiene: 
+tamaño aleatorio
+ color aleatorio
 */
 
 
@@ -332,9 +332,9 @@ function setup() {
 EXPLICACIÓN
 ----------------------------------------------------
 
-✔ x avanza horizontalmente
-✔ y avanza verticalmente
-✔ se crea una grilla de círculos
+ x avanza horizontalmente
+ y avanza verticalmente
+ se crea una grilla de círculos
 
 
 ====================================================
@@ -382,11 +382,11 @@ que comenzó el sketch.
 CARACTERÍSTICAS
 ----------------------------------------------------
 
-✔ En setup() vale 0
+ En setup() vale 0
 
-✔ Aumenta automáticamente en draw()
+ Aumenta automáticamente en draw()
 
-✔ Se actualiza cada frame
+ Se actualiza cada frame
 
 
 ====================================================
@@ -416,9 +416,8 @@ function draw() {
 ----------------------------------------------------
 EXPLICACIÓN
 ----------------------------------------------------
-
-✔ frameCount aumenta constantemente
-✔ el círculo se mueve automáticamente
+ frameCount aumenta constantemente
+ el círculo se mueve automáticamente
 
 
 ====================================================
@@ -454,11 +453,11 @@ Esto genera movimiento oscilatorio.
 USOS DE frameCount
 ====================================================
 
-✔ Animaciones
-✔ Tiempo
-✔ Movimiento
-✔ Eventos automáticos
-✔ Control temporal
+ Animaciones
+ Tiempo
+ Movimiento
+ Eventos automáticos
+ Control temporal
 
 
 ====================================================
@@ -467,30 +466,30 @@ COMPARACIÓN WHILE vs FOR
 
 WHILE
 -------------------------
-✔ depende de condición
-✔ iteraciones desconocidas
+ depende de condición
+ iteraciones desconocidas
 
 FOR
 -------------------------
-✔ número de repeticiones conocido
-✔ estructura más ordenada
+ número de repeticiones conocido
+ estructura más ordenada
 
 
 ====================================================
 IDEAS CLAVES
 ====================================================
 
-✔ Los loops automatizan tareas repetitivas
+ Los loops automatizan tareas repetitivas
 
-✔ while depende de una condición
+ while depende de una condición
 
-✔ for funciona mejor cuando sabemos
+for funciona mejor cuando sabemos
   cuántas veces repetir
 
-✔ nested loops permiten trabajar
+ nested loops permiten trabajar
   en estructuras bidimensionales
 
-✔ frameCount ayuda a controlar
+ frameCount ayuda a controlar
   tiempo y animación
 
 
@@ -498,15 +497,15 @@ IDEAS CLAVES
 RESUMEN RÁPIDO
 ====================================================
 
-✔ while → repite mientras algo sea true
+ while → repite mientras algo sea true
 
-✔ for → repite una cantidad específica
+ for → repite una cantidad específica
 
-✔ nested loops → loops dentro de loops
+ nested loops → loops dentro de loops
 
-✔ frameCount → cuenta frames automáticamente
+ frameCount → cuenta frames automáticamente
 
-✔ loops → automatizan dibujo y animación
+ loops → automatizan dibujo y animación
 
 
 ====================================================
@@ -555,12 +554,12 @@ function draw() {
 ESTE EJEMPLO UTILIZA:
 ----------------------------------------------------
 
-✔ for
-✔ nested loops
-✔ map()
-✔ mouseX / mouseY
-✔ random()
-✔ animación
-✔ interacción
+for
+ nested loops
+ map()
+ nouseX / mouseY
+  random()
+ animación
+ interacción
 
 */
