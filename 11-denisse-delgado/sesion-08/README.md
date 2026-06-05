@@ -177,6 +177,8 @@ El sistema genera cambios visuales que representan distintos niveles de presión
 ---
 
 # Diagrama de flujo
+<img width="1024" height="1536" alt="8e72dbe5-e323-47af-bf82-6b7e79e2f746" src="https://github.com/user-attachments/assets/6421a597-2e44-46bf-81aa-395556c64cd3" />
+
 <img width="1024" height="1536" alt="Flujo visual" src="https://github.com/user-attachments/assets/83446b40-0b83-499b-a763-2ff4b43a635b" />
 
 # Código:

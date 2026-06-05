@@ -2,7 +2,7 @@
 
 # SOLEMNE 2 ¡Movimiento!
 
-Nombre proyecto :
+Nombre proyecto : **¿Puedes o no?**
 
 Hecho por : 
 *Gabriela Ferrada*
