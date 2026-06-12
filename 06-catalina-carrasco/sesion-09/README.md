@@ -1,4 +1,4 @@
-# sesión 06 - 14/04
+# sesión 06 - 12/06
 # Apuntes: Crear un Sketch Adaptable al Tamaño de la Pantalla
 
 ## Objetivo
